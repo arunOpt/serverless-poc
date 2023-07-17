@@ -1,0 +1,6 @@
+list:
+  handler: src/functions/todos/list.list
+  events:
+    - httpApi:
+        path: /todos
+        method: get

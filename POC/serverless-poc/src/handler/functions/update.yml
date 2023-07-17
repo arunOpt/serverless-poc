@@ -1,0 +1,6 @@
+update:
+  handler: src/functions/todos/update.update
+  events:
+    - httpApi:
+        path: /todos/{id}
+        method: put

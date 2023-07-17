@@ -1,0 +1,6 @@
+delete:
+  handler: src/functions/todos/delete.delete
+  events:
+    - httpApi:
+        path: /todos/{id}
+        method: delete

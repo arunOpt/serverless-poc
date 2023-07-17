@@ -1,0 +1,6 @@
+get:
+  handler: src/functions/todos/get.get
+  events:
+    - httpApi:
+        path: /todos/{id}
+        method: get

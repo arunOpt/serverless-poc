@@ -1,0 +1,15 @@
+{
+  "name": "serverless-poc",
+  "version": "1.0.0",
+  "description": "Serverless",
+  "author": "Arun Surendharan",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1415.0",
+    "uuid": "^2.0.3"
+  },
+  "devDependencies": {
+    "serverless-dynamodb-local": "^0.2.18",
+    "serverless-offline": "^6.8.0"
+  }
+}

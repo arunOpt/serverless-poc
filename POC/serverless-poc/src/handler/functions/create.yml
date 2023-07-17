@@ -1,0 +1,6 @@
+create:
+  handler: src/functions/todos/create.create
+  events:
+    - httpApi:
+        path: /todos
+        method: post
